@@ -26,19 +26,13 @@
     li {
       margin: 10px 0;
     }
-    a:link {
-      color: white;
-      text-decoration: none;
-    }
-    a:visited {
-      color: #696969;
+    a:link, a:visited {
+      color: white;       /* 初期状態・訪問済みも白 */
       text-decoration: none;
     }
     a:hover {
-      color: #696969;
-      background: white;
-      padding: 2px 4px;
-      transition: 0.2s;
+      color: #696969;     /* 背景色と同化して文字が消える */
+      text-decoration: none;
     }
   </style>
 </head>
